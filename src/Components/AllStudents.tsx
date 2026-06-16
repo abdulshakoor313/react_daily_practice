@@ -11,10 +11,18 @@ const studentData = [
 ];
 const AllStudents = () => (
     <div>
-        {studentData.map((item, index) => (
-            <StudentCard key={index}{...item} />
+        {studentData.map((item,index)=>(
+            <StudentCard key={index}{...item}/>
         ))}
     </div>
 );
 
 export default AllStudents;
+
+
+
+    // <div>
+    //     {studentData.map((item, index) => (
+    //         <StudentCard key={index}{...item} />
+    //     ))}
+    // </div>
