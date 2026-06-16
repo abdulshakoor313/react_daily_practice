@@ -9,15 +9,52 @@ const studentData = [
         section: "A",
     }
 ];
-const AllStudents = () => (
+
+const AllStudents= () =>(
     <div>
         {studentData.map((item,index)=>(
             <StudentCard key={index}{...item}/>
         ))}
     </div>
-);
 
+)
 export default AllStudents;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const AllStudents= () =>(
+//     <div>
+//         {studentData.map((item,index)=>(
+//             <StudentCard key={index}{...item}/>
+//         ))}
+//     </div>
+// )
+// export default AllStudents;
+
+// const AllStudents = () => (
+//     <div>
+//         {studentData.map((item,index)=>(
+//             <StudentCard key={index}{...item}/>
+//         ))}
+//     </div>
+// );
+
+// export default AllStudents;
 
 
 
