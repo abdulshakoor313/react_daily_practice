@@ -1,6 +1,8 @@
+import AllMembers from './Components/AllMembers'
 import AllProducts from './Components/AllProducts'
 import AllStudents from './Components/AllStudents'
 import MyCard from './Components/MyCard'
+
 
 
 function App() {
@@ -19,6 +21,7 @@ function App() {
       />
       <AllProducts/>
       <AllStudents/>
+      <AllMembers/>
 
     </div>
   )
