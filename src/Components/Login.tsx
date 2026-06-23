@@ -8,7 +8,8 @@ const Login = () => {
   return (
     <div>
         <form onClick={(e)=>submithandler(e)}>
-                <input 
+                <input
+                value=""
                 className="border border-black-300"
                 type="text"
                 placeholder="Enter Email"
