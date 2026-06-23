@@ -11,6 +11,8 @@ import Login from "./Components/Login"
 function App() {
   return (
     <div className="flex flex-wrap justify-center items-center gap-6 bg-gray-100">
+
+      <Login/>
            
 {/*       
       <MyCard
@@ -39,7 +41,7 @@ function App() {
       email='abc@gmail.com'
        /> */
        /* <UssseEffect/> */}
-       <Login/>
+       
 
     </div>
   )
