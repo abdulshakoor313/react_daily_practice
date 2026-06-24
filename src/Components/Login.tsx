@@ -28,12 +28,14 @@ const Login = () => {
          <h2 className="text-2xl font-bold text-center text-gray-700">
                     Welcome Back
                 </h2>
+                  <p className="text-center text-sm text-gray-500">
+                    Please sign in to continue
+                </p>
 
 
-                
         <h1>Log In</h1>
         <input
-          className="border border-black"
+          className="w-full border border-gray-300 p-3 rounded-lg text-sm sm:text-base focus:outline-none focus:ring-2 focus:ring-sky-400"
           type="email"
           placeholder="Enter Email"
           value={email}
