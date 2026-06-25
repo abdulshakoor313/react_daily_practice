@@ -24,7 +24,7 @@ const Login = () => {
         className="w-full max-w-md mx-auto bg-sky-100 p-6 sm:p-8 rounded-2xl shadow-lg flex flex-col gap-5"
       >
         <h2 className="text-2xl font-bold text-center text-gray-700">
-          Welcome Back
+          Welcome
         </h2>
         <p className="text-center text-sm text-gray-500">
           Please sign in to continue
