@@ -48,7 +48,7 @@ const Login = () => {
           value={passWord}
           onChange={(e) => setpassWord(e.target.value)}
         />
-        {/* <h2>{passWord}</h2> */}
+        <h2>{passWord}</h2>
         <button
           className="w-full bg-sky-500 text-white py-3 rounded-lg font-medium hover:bg-sky-600 active:scale-[0.98] transition"
           type="submit"
