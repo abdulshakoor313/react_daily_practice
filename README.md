@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="./images/banner.png" alt="React TypeScript Banner" width="100%">
+  <img src=".src/images/banner.png" alt="React TypeScript Banner" width="100%">
 </p>
 
 Welcome to my **React + TypeScript Daily Practice** repository!
