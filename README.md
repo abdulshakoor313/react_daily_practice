@@ -1,74 +1,66 @@
-# React + TypeScript + Vite
-# React + TypeScript + Vite
+# 🚀 React + TypeScript Daily Practice
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my **React + TypeScript Daily Practice** repository!
 
-Currently, two official plugins are available:
+This repository showcases my commitment to becoming a better frontend developer through **daily coding, consistent practice, and continuous learning**. Every project, component, and feature is built to strengthen my understanding of React, TypeScript, and modern web development.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🎯 About This Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The purpose of this repository is to:
 
-## Expanding the ESLint configuration
+* 📌 Practice React fundamentals and advanced concepts.
+* 💻 Build real-world UI components and mini projects.
+* ⚡ Improve TypeScript skills with practical examples.
+* 🧩 Learn reusable component architecture.
+* 🔥 Maintain a daily GitHub contribution streak.
+* 📈 Track my growth as a frontend developer.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🛠️ Tech Stack
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+* ⚛️ React
+* 🔷 TypeScript
+* ⚡ Vite
+* 🎨 CSS
+* 📦 npm
+* 🌿 Git & GitHub
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📅 Daily Progress
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+I regularly update this repository with new practice projects, experiments, and coding exercises. Every commit represents another step toward mastering React and TypeScript.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## 📚 What You'll Find
+
+* React Components
+* TypeScript Practice
+* Hooks
+* State Management
+* Event Handling
+* Forms & Validation
+* API Integration
+* Mini Projects
+* UI Experiments
+* Best Practices
+
+---
+
+## 🌱 My Goal
+
+I believe that **consistency beats intensity**. By practicing every day and sharing my progress publicly, I'm building strong development habits while creating a portfolio that reflects my learning journey.
+
+> *"Code. Learn. Improve. Repeat."*
+
+---
+
+## ⭐ Support
+
+If you find this repository helpful or enjoy following my journey, consider giving it a **⭐ Star**. Your support motivates me to keep learning and building!
+
+Happy Coding! 🚀
