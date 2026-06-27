@@ -27,7 +27,7 @@ const Login = () => {
       type="password"
       placeholder="Password"
       value={passWord}
-      onChange={(e) => setEmail(e.target.value)}
+      onChange={(e) => setpassWord(e.target.value)}
       />
 
     </div>
