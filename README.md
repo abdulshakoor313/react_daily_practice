@@ -1,5 +1,10 @@
 # 🚀 React + TypeScript Daily Practice
 
+
+<p align="center">
+  <img src="./images/banner.png" alt="React TypeScript Banner" width="100%">
+</p>
+
 Welcome to my **React + TypeScript Daily Practice** repository!
 
 This repository showcases my commitment to becoming a better frontend developer through **daily coding, consistent practice, and continuous learning**. Every project, component, and feature is built to strengthen my understanding of React, TypeScript, and modern web development.
