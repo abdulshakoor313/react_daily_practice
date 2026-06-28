@@ -3,12 +3,33 @@ import { useState } from "react"
 const Login = () => {
   const [Email, setEmail] = useState("");
   const [passWord, setpassWord] = useState("");
-  const submiithandler = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
 
-    
+const submiithandler = (e: React.FormEvent<HTMLFormElement>) => {
+  e.preventDefault();
+
+  if (Email.trim() === "") {
+    alert("Email is required");
+    return;
   }
 
+  if (!Email.includes("@")) {
+    alert("Please enter a valid email");
+    return;
+  }
+
+  if (passWord.trim() === "") {
+    alert("Password is required");
+    return;
+  }
+
+  if (passWord.length < 8) {
+    alert("Password must be at least 8 characters");
+    return;
+  }
+
+  alert("Login Successful");
+  console.log(Email, passWord);
+};
 
   return (
     <form onSubmit={submiithandler}>
