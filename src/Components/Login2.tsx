@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useState } from "react"
 
 const Login2 = () => {
     const [email,setemail] = useState("");
@@ -6,6 +6,7 @@ const Login2 = () => {
     const submitHandler = (e:React.FormEvent<HTMLFormElement>)=>{
         e.preventDefault();
     }
+    
 
 return (
 
