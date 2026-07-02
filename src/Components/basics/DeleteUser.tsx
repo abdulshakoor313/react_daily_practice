@@ -15,7 +15,7 @@ const DeleteUser = () => {
 
   return (
     <div>
-      <h1 className="text-4xl-bold tracking-widest underline">User List</h1>
+      <h1 className="text-4xl font-bold text-blue-600 tracking-widest underline">User List</h1>
 
       {users.map((user) => (
         <div key={user.id}
