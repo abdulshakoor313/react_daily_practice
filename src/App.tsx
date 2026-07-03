@@ -13,7 +13,7 @@ import DeleteUser2 from "./Components/basics/Deleteuser2"
 function App() {
   return (
     <div className="flex flex-wrap justify-center items-center gap-6 bg-gray-100">
-    
+    <DeleteUser2/>
 
 
       {/* <Login/> 
