@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const DeleteUser = () => {
+const DeleteUser2 = () => {
   const [users, setUsers] = useState([
     { id: 1, name: "Anas", age: 10 },
     { id: 2, name: "Onais", age: 15 },
@@ -37,4 +37,4 @@ const DeleteUser = () => {
   );
 };
 
-export default DeleteUser;
+export default DeleteUser2;
