@@ -14,7 +14,11 @@ const Deleteuser2 = () => {
     }
   return (
     <div>
-      
+      <h1>User List</h1>
+      {users.map((user)=>(
+        <div key={user.id}>
+
+      ))}
     </div>
   )
 }
