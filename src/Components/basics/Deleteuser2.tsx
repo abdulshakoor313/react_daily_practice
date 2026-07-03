@@ -8,6 +8,10 @@ const Deleteuser2 = () => {
         {id:3, namae:"Onais", age: 5, city:"Padidan"},
         {id:4, namae:"Sagar", age: 9, city:"Padidan"},
     ]);
+    const deleteUser = (id:number)=>{
+        const updateUsers = users.filter((user)=>user.id !==id);
+        setusers(updateUsers);
+    }
   return (
     <div>
       
