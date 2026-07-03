@@ -20,7 +20,7 @@ const Deleteuser2 = () => {
             <h2> Name: {user.name}</h2>
             <p>Age: {user.age}</p>
             <span> City : {user.city}</span>
-            <button onClick={()=>deleteUser}></button>
+            <button onClick={()=>deleteUser(user.id)}> ......Delete</button>
         </div>
       ))}
     </div>
