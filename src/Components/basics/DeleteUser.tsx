@@ -11,29 +11,40 @@ const DeleteUser = () => {
     const updatedUsers = users.filter((user) => user.id !== id);
     setUsers(updatedUsers);
   };
-  
 
   return (
-    <div>
-      <h1 className="text-4xl font-bold text-blue-600 tracking-widest underline">User List</h1>
-      <p className="text-lg font-semibold mb-4">
-  Total Users: {users.length}
-</p>
+    <div className="max-w-md mx-auto mt-10 p-6 bg-sky-100 rounded-xl shadow-lg">
+      <h1 className="text-4xl font-bold text-blue-600 text-center mb-4">
+        User List
+      </h1>
 
-      {users.map((user) => (
-        <div key={user.id}
-        className=" text-2xl bg-green"
-        >
-          <h2>{user.name}</h2>
-          <p>Age: {user.age}</p>
+      <p className="text-lg font-semibold mb-5">
+        Total Users: {users.length}
+      </p>
 
-          <button 
-          className="p-4 text-2xl font-white border-2"
-          onClick={() => deleteUser(user.id)}>
-            Delete
-          </button>
-        </div>
-      ))}
+      {users.length === 0 ? (
+        <h2 className="text-center text-red-600 font-bold text-xl">
+          No Users Available
+        </h2>
+      ) : (
+        users.map((user) => (
+          <div
+            key={user.id}
+            className="bg-white p-4 rounded-lg shadow mb-4"
+          >
+            <h2 className="text-xl font-bold">{user.name}</h2>
+
+            <p>Age: {user.age}</p>
+
+            <button
+              className="mt-3 px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600"
+              onClick={() => deleteUser(user.id)}
+            >
+              Delete
+            </button>
+          </div>
+        ))
+      )}
     </div>
   );
 };
