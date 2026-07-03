@@ -7,13 +7,13 @@
 // import Login from "./Components/Login"
 // import Login2 from "./Components/Login2"
 
-import Deleteuser from "./Components/basics/DeleteUser"
+import DeleteUser2 from "./Components/basics/Deleteuser2"
 
 
 function App() {
   return (
     <div className="flex flex-wrap justify-center items-center gap-6 bg-gray-100">
-      <Deleteuser/>
+    
 
 
       {/* <Login/> 
