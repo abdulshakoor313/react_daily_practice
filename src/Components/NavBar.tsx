@@ -12,7 +12,7 @@ const NavBar = () => {
                     <ul>Products</ul>
                     <ul>About</ul>
                     <ul>Contact Us</ul>
-                    <nav/>
+                    </nav>
                 </div>
             </div>
         </header>
