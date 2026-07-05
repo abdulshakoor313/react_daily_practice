@@ -11,7 +11,7 @@ const NavBar = () => {
                     <ul>Gallery</ul>
                     <ul>Products</ul>
                     <ul>About</ul>
-                    <ul></ul>
+                    <ul>Contact Us</ul>
                     <li></li>
                   </nav>
                 </div>
