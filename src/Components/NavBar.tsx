@@ -10,7 +10,7 @@ const NavBar = () => {
                     <ul>Home</ul>
                     <ul>Gallery</ul>
                     <ul>Products</ul>
-                    <ul></ul>
+                    <ul>About</ul>
                     <ul></ul>
                     <li></li>
                   </nav>
