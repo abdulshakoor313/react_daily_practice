@@ -8,11 +8,13 @@
 // import Login2 from "./Components/Login2"
 
 import DeleteUser2 from "./Components/basics/Deleteuser2"
+import NavBar from "./Components/NavBar"
 
 
 function App() {
   return (
     <div className="flex flex-wrap justify-center items-center gap-6 bg-gray-100">
+      <NavBar/>
     <DeleteUser2/>
 
 
