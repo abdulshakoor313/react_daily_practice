@@ -7,7 +7,8 @@
 // import Login from "./Components/Login"
 // import Login2 from "./Components/Login2"
 
-import DeleteUser2 from "./Components/basics/Deleteuser2"
+// import DeleteUser2 from "./Components/basics/Deleteuser2"
+import AddUser from "./Components/forms/AddUser"
 import NavBar from "./Components/NavBar"
 
 
@@ -15,10 +16,11 @@ function App() {
   return (
     <div className="flex flex-wrap justify-center items-center gap-6 bg-gray-100">
       <NavBar/>
-    <DeleteUser2/>
+      <AddUser/>
 
 
       {/* <Login/> 
+       <DeleteUser2/>
       <Login2/>       
       <MyCard
       name="Abdul Shakoor"
