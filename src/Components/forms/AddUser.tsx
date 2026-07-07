@@ -10,8 +10,12 @@ const AddUser = () => {
   return (
     <div>
       <input 
+
       className='border-2'
-      type='text'/>
+      type='text'
+      placeholder='Name '
+      />
+      Add the User
     </div>
   )
 }
