@@ -17,7 +17,7 @@ const NavBar = () => {
               <li>
                 <a href="/gallery" className="hover:text-blue-600">
                   Gallery
-                </a>dir .\src\pages
+                </a>
               </li>
               <li>
                 <a href="/products" className="hover:text-blue-600">
