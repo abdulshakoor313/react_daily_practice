@@ -1,3 +1,77 @@
+import { Routes, Route } from "react-router-dom";
+
+import NavBar from "./Components/NavBar";
+import Home from "./pages/Home";
+import Gallery from "./pages/Gallery";
+import Products from "./pages/Products";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+
+function App() {
+  return (
+    <>
+      <NavBar />
+
+      <main className="min-h-screen bg-gray-100 p-6">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </main>
+    </>
+  );
+}
+
+export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // import AllMembers from './Components/AllMembers'
 // import AllProducts from './Components/AllProducts'
 // import AllStudents from './Components/AllStudents'
@@ -8,15 +82,6 @@
 // import Login2 from "./Components/Login2"
 
 // import DeleteUser2 from "./Components/basics/Deleteuser2"
-import AddUser from "./Components/forms/AddUser"
-import NavBar from "./Components/NavBar"
-
-
-function App() {
-  return (
-    <div className="flex flex-wrap justify-center items-center gap-6 bg-gray-100">
-      <NavBar/>
-      <AddUser/>
 
 
       {/* <Login/> 
@@ -48,10 +113,3 @@ function App() {
       email='abc@gmail.com'
        /> */
        /* <UssseEffect/> */}
-       
-
-    </div>
-  )
-}
-
-export default App
