@@ -84,7 +84,7 @@ export default App;
 // import DeleteUser2 from "./Components/basics/Deleteuser2"
 
 
-      {/* <Login/> 
+{/* <Login/> 
        <DeleteUser2/>
       <Login2/>       
       <MyCard
@@ -112,4 +112,5 @@ export default App;
       designation='CEO'
       email='abc@gmail.com'
        /> */
-       /* <UssseEffect/> */}
+  /* <UssseEffect/> */
+}
