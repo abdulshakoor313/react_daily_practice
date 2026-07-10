@@ -4,8 +4,6 @@ import { useState } from "react"
 const Deleteuser2 = () => {
     const [users, setusers] = useState([
         {id:1, name:"Mehran", age: 10, city:"Padidan"},
-        {id:2, name:"Anas", age: 20, city:"Padidan"},
-        {id:3, name:"Onais", age: 5, city:"Padidan"},
         {id:4, name:"Sagar", age: 9, city:"Padidan"},
     ]);
     const deleteUser = (id:number)=>{
