@@ -4,7 +4,7 @@ const UssseEffect = () => {
   const [Count, setCount]=useState(0);
   useEffect(()=>{
     console.log("Changed the value");
-  },[Count]);
+  },[]);
   return (
     <div>
       <h1>{Count}</h1>
