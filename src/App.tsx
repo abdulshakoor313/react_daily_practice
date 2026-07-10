@@ -72,7 +72,7 @@ export default App;
 
 
 
-import AllMembers from './Components/AllMembers'
+// import AllMembers from './Components/basics/AllMembers'
 // import AllProducts from './Components/AllProducts'
 // import AllStudents from './Components/AllStudents'
 // import Counter from './Components/Counter'
