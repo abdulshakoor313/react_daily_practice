@@ -83,7 +83,6 @@ export default App;
 
 // import DeleteUser2 from "./Components/basics/Deleteuser2"
 
-
 {/* <Login/> 
        <DeleteUser2/>
       <Login2/>       
