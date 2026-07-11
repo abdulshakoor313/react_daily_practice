@@ -6,7 +6,7 @@ import Gallery from "./pages/Gallery";
 import Products from "./pages/Products";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Deleteuser2 from "./Components/basics/Deleteuser2";
+
 
 function App() {
   return (
@@ -22,7 +22,6 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
-      <Deleteuser2/>
     </>
   );
 }
