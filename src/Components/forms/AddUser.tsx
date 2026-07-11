@@ -12,7 +12,7 @@ const AddUser = () => {
       id: users.length + 1,
       nmae: name,
       age: 12,
-    }
+    };
   }
   return (
     <div>
