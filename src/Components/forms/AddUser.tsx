@@ -13,10 +13,26 @@ const AddUser = () => {
       nmae: name,
       age: 12,
     };
-  }
+  };
+  setUsers([...users, newUser]);
+  setName("");
+
   return (
     <div>
-      
+      <input
+      type="text"
+      value={name}
+      onChange={}
+      placeholder="Name"
+
+      />
+      <button onClick={AddUser}>Add Name</button>
+      {users.map((users)
+        <div key={users.id}>
+          <p>{name}</p>
+          <span>{age}</span>
+        </div>
+      )}
     </div>
   )
 }
