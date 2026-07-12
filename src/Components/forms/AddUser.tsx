@@ -25,7 +25,7 @@ const AddUser = () => {
       value={name}
       onChange={}
       placeholder="Name"
-
+      onRateChange={}
       />
       <button>Add users</button>
     </div>
