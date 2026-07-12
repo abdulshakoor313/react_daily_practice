@@ -7,13 +7,11 @@ const AddUser = () => {
     { id: 1, name: "Mehran", age: 10, },
     { id: 2, name: "Sagar", age: 9, },
   ]);
-  const AddUser = () =>{
-    const newUser = {
-      id: users.length + 1,
-      nmae: name,
-      age: 12,
-    };
-  };
+  const adduser = () =>{
+    const newuseer = () =>{
+      id: users.length
+    }
+  }
   setUsers([...users, newUser]);
   setName("");
 
