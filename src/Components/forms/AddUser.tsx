@@ -7,18 +7,17 @@ const AddUser = () => {
     { id: 1, name: "Mehran", age: 10, },
     { id: 2, name: "Sagar", age: 9, },
   ]);
-  const adduser = () =>{
-    const newuseer = () =>{
-      id: users.length +1,
+  const addUser = () =>{
+
+    const newUser = () =>{
+      id: users.length + 1,
       name: name,
       age: 18,
     };
     setUsers([...users, newUser]);
     
   setName("");
-  }
-
-
+  };
   return (
     <div>
       <input
@@ -28,13 +27,7 @@ const AddUser = () => {
       placeholder="Name"
 
       />
-      <button onClick={AddUser}>Add Name</button>
-      {users.map((users)
-        <div key={users.id}>
-          <p>{name}</p>
-          <span>{age}</span>
-        </div>
-      )}
+      <button>Add users</button>
     </div>
   )
 }
