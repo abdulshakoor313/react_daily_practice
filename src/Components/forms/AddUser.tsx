@@ -13,10 +13,11 @@ const AddUser = () => {
       name: name,
       age: 18,
     };
-    setName()
-  }
-  setUsers([...users, newUser]);
+    setUsers([...users, newUser]);
+    
   setName("");
+  }
+
 
   return (
     <div>
