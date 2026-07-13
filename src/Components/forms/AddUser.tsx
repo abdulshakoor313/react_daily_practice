@@ -2,6 +2,10 @@ import {useState} from 'react'
 
 const AddUser = () => {
   const [name, setName] = useState("");
+  const [users, setusers] = useState([
+    {id:1, name: "Mehran", age: 18}
+    {id:2, name: "Sagar", age: 10}
+  ])
   return (
     <div>
       
