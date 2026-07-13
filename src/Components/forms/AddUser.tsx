@@ -12,7 +12,8 @@ const AddUser = () => {
       name: name,
       age: 10,
     };
-  setusers([...users, newUser ])
+  setusers([...users, newUser ]);
+  setName("");
    }
   return (
     <div>
