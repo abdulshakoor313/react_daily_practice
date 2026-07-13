@@ -12,7 +12,7 @@ const AddUser = () => {
       name: name,
       age: 10,
     };
-  
+  setusers([...users, newUser ])
    }
   return (
     <div>
