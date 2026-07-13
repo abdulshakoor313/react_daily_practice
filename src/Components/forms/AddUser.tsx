@@ -17,7 +17,7 @@ const AddUser = () => {
    }
   return (
     <div>
-      
+      <input/>
     </div>
   )
 }
