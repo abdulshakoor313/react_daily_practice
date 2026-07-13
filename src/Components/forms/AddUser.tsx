@@ -1,38 +1,3 @@
-import { useState } from "react"
-
-
-const AddUser = () => {
-  const [name, setName] = useState("");
-  const [users, setUsers] = useState([
-    { id: 1, name: "Mehran", age: 10, },
-    { id: 2, name: "Sagar", age: 9, },
-  ]);
-  const addUser = () =>{
-
-    const newUser = () =>{
-      id: users.length + 1,
-      name: name,
-      age: 18,
-    };
-    setUsers([...users, newUser]);
-    
-  setName("");
-  };
-  return (
-    <div>
-      <input
-      type="text"
-      value={name}
-      onChange={}
-      placeholder="Name"
-      onRateChange={}
-      />
-      <button>Add users</button>
-    </div>
-  )
-}
-
-export default AddUser
 
 
 
