@@ -17,7 +17,14 @@ const AddUser = () => {
    }
   return (
     <div>
-      <input/>
+      <input
+      type='text'
+      value={name}
+      placeholder='Name'
+      onChange={(e) => setName(e.target.value)}
+      />
+      <button onClick={addUser}>Add</button>
+      {users.map()=>}
     </div>
   )
 }
