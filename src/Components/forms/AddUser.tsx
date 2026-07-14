@@ -24,7 +24,9 @@ const AddUser = () => {
       onChange={(e) => setName(e.target.value)}
       />
       <button onClick={addUser}>Add</button>
-      {users.map()=>}
+      {users.map()=>(
+        <div key={users.id}>{name} </div>
+      )}
     </div>
   )
 }
