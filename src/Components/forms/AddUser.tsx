@@ -26,7 +26,7 @@ const AddUser = () => {
       <button onClick={addUser}>Add</button>
       {users.map((user) =>(
         <div key={user.id}>
-          <p>{age}</p>
+          <p>{user.age}</p>
         </div>
       ))}
     </div>
