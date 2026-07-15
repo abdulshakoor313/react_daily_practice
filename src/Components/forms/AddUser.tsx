@@ -26,6 +26,7 @@ const AddUser = () => {
       <button onClick={addUser}>Add</button>
       {users.map((user) =>(
         <div key={user.id}>
+          <h2>{user.name}</h2>
           <p>{user.age}</p>
         </div>
       ))}
