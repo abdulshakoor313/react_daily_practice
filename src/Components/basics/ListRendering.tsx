@@ -10,7 +10,7 @@ const ListRendering = () => {
       <h1 className='font-bold text-3xl p-5'>Usr List</h1>
       {users.map((user)=>(
         <div key={user.id}>
-            <h2>Name :{user.name}</h2>
+            <h2 className='font-extrabold'>Name :{user.name}</h2>
             <p> Age :{user.age}</p>
             <span>City : {user.city}</span>
         </div>
