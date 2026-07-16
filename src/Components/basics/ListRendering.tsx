@@ -7,7 +7,7 @@ const ListRendering = () => {
     ]);
   return (
     <div>
-      <h1 className='font-bold text-3xl'>Usr List</h1>
+      <h1 className='font-bold text-3xl p-5'>Usr List</h1>
       {users.map((user)=>(
         <div key={user.id}>
             <h2>Name :{user.name}</h2>
