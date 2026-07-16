@@ -11,7 +11,7 @@ const ListRendering = () => {
       {users.map((user)=>(
         <div key={user.id}>
             <h2 className='font-extrabold'>Name :{user.name}</h2>
-            <p> Age :{user.age}</p>
+            <p className='text-2xl'> Age :{user.age}</p>
             <span>City : {user.city}</span>
         </div>
       ))}
