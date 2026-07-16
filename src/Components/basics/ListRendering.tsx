@@ -12,7 +12,7 @@ const ListRendering = () => {
         <div key={user.id}>
             <h2 className='font-extrabold'>Name :{user.name}</h2>
             <p className='text-2xl'> Age :{user.age}</p>
-            <span>City : {user.city}</span>
+            <span className='font-extralight'>City : {user.city}</span>
         </div>
       ))}
     </div>
