@@ -1,5 +1,14 @@
+import SindhiArticle from "../Components/basics/SindhiArticle";
+
 const Products = () => {
-  return <h1>Products Page</h1>;
+  return 
+
+
+<SindhiArticle/>
+
+
 };
+
+
 
 export default Products;
