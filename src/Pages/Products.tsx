@@ -1,14 +1,9 @@
-import SindhiArticle from "../Components/basics/SindhiArticle";
+import SindhiArticle from "../Components/basics/SindhiArticle"
 
 const Products = () => {
-  return 
+  return (
+    <SindhiArticle/>
+  )
+}
 
-
-<SindhiArticle/>
-
-
-};
-
-
-
-export default Products;
+export default Products
