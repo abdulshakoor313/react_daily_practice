@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "MBSindhiWeb";
-  src: url("public/fonts/MBSindhiWeb") format("opentype");
+  src: url("/fonts/MBSindhiWeb.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
