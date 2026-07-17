@@ -44,7 +44,7 @@ const UrduArticle = () => {
         </footer>
             </article>
         </main>
-    )
-}
+    );
+};
 
 export default UrduArticle

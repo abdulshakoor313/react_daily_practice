@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 @font-face {
-  font-family: "MBSindhiWeb","jameel noori nastaleeq_0";
+  font-family: "MBSindhiWeb";
   src: url("/fonts/MBSindhiWeb.otf") format("opentype");
-  src: url("/fonts/jameel noori nastaleeq_0.ttf") format("truetype");
+
   font-weight: normal;
   font-style: normal;
   font-display: swap;

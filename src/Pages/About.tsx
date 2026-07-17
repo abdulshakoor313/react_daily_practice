@@ -1,5 +1,7 @@
+import UrduArticle from "../Components/basics/UrduArticle";
+
 const About = () => {
-  return <h1>About Page</h1>;
+  return <UrduArticle/>
 };
 
 export default About;
