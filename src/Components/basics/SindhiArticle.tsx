@@ -5,6 +5,7 @@ const SindhiArticle = () => {
         dir="rtl"
         lang="sd"
         className="mx-auto max-w-4xl rounded-2xl bg-white p-8 shadow-lg"
+        style={{ fontFamily: "MBSindhiWeb" }}
       >
         {/* Title */}
         <header className="mb-8 border-b border-gray-200 pb-6">
@@ -14,6 +15,7 @@ const SindhiArticle = () => {
 
           <p className="mt-3 text-right text-sm text-gray-500">
             شايع ٿيل: 17 جولاءِ 2026
+            ABCDEFGHI
           </p>
         </header>
 
