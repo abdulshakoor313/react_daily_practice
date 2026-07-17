@@ -14,8 +14,8 @@ const SindhiArticle = () => {
           </h1>
 
           <p className="mt-3 text-right text-sm text-gray-500">
-            شايع ٿيل: 17 جولاءِ 2026
-            ABCDEFGHI
+            
+             شايع ٿيل: <strong className="text-2xl">10</strong>  جولاء 2026
           </p>
         </header>
 
