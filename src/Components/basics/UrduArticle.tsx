@@ -7,7 +7,7 @@ const UrduArticle = () => {
                 dir="rtl"
                 lang="sd"
                 className="mx-auto max-w-4xl rounded-2xl bg-white p-8 shadow-lg"
-                style={{ fontFamily: "jameel noori nastaleeq_0" }}
+                style={{ fontFamily: "JameelNoori" }}
             >
                 <header className="mb-8 border-b border-gray-200 pb-6">
                     <h1 className="text-right text-4xl font-bold text-gray-900">ڈیجیٹل مارکیٹنگ سیکھیں</h1>
