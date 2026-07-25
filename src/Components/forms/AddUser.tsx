@@ -1,42 +1,20 @@
-import {useState} from 'react'
+import { useState } from "react"
+
 
 const AddUser = () => {
-  const [name, setName] = useState("");
-  const [users, setusers] = useState([
-    {id:1, name: "Mehran", age: 18},
-    {id:2, name: "Sagar", age: 10},
-    {id:3, name: "Anas" , age: 8}
-  ]);
-   const addUser = () => {
-    const newUser = {
-      id: users.length+1,
-      name: name,
-      age: 10,
-    };
-  setusers([...users, newUser ]);
-  setName("");
-   }
+  const [name, setName] = useState("")
+  const [users, setUsers] = useState([
+    {id:1, name: "Anas", age: 8},
+    {id:1, name: "Anas", age: 8},
+  ])
   return (
     <div>
-      <input
-      type='text'
-      value={name}
-      placeholder='Name'
-      onChange={(e) => setName(e.target.value)}
-      />
-      <button onClick={addUser}>Add</button>
-      {users.map((user) =>(
-        <div key={user.id}>
-          <h2>{user.name}</h2>
-          <p>{user.age}</p>
-        </div>
-      ))}
+      Anas
     </div>
   )
 }
 
 export default AddUser
-
 
 
 
