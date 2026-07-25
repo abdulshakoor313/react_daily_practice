@@ -6,10 +6,10 @@ const AddUser = () => {
   const [users, setUsers] = useState([
     {id:1, name: "Anas", age: 8},
     {id:2, name: "Anas", age: 8},
-  ])
+  ]);
   return (
     <div>
-      Anas
+      
     </div>
   )
 }
