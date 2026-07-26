@@ -29,7 +29,9 @@ const AddUser = () => {
       >
         Add
       </button>
-      {users.map((user))}
+      {users.map((user)=>(
+        
+      ))}
     </div>
   )
 }
