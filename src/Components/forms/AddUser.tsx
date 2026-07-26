@@ -1,3 +1,4 @@
+import { Agent } from "http";
 import { useState } from "react"
 
 
@@ -31,7 +32,8 @@ const AddUser = () => {
       </button>
       {users.map((user)=>(
         <div key={user.id}>
-          
+          {name}
+          {age}
         </div>
       ))}
     </div>
