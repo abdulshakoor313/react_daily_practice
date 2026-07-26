@@ -32,7 +32,7 @@ const AddUser = () => {
       </button>
       {users.map((user)=>(
         <div key={user.id}>
-          {user.name}
+        <h1>  {user.name}</h1>
           {user.age}
         </div>
       ))}
