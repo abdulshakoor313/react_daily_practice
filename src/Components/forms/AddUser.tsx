@@ -23,7 +23,7 @@ const AddUser = () => {
       value={name}
       onChange={(e)=>{
         e.target.value
-        setName(e);
+        setName({name});
       }}
 
       
