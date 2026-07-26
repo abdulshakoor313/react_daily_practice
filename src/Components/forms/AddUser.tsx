@@ -5,11 +5,26 @@ const AddUser = () => {
   const [name, setName] = useState("")
   const [users, setUsers] = useState([
     {id:1, name: "Anas", age: 8},
-    {id:2, name: "Anas", age: 8},
+    {id:2, name: "Onai", age: 5},
   ]);
+  const addUser = ()=>{
+    const newUser = {
+      id: users.length +1,
+      name: name,
+      age: 8,
+    };
+    setUsers([...users, newUser])
+  }
   return (
     <div>
+      <input
+      type="text"
+      placeholder="Name"
+      value={name}
+      onChange={}
+
       
+      />
     </div>
   )
 }
