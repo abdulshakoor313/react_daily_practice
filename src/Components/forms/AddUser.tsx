@@ -22,7 +22,7 @@ const AddUser = () => {
       placeholder="Name"
       value={name}
       onChange={(e)=>{
-
+        e.target.value
       }}
 
       
