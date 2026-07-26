@@ -32,8 +32,8 @@ const AddUser = () => {
       </button>
       {users.map((user)=>(
         <div key={user.id}>
-          {name}
-          {age}
+          {user.name}
+          {user.age}
         </div>
       ))}
     </div>
