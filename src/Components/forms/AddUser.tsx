@@ -29,6 +29,7 @@ const AddUser = () => {
       >
         Add
       </button>
+      {users.map()}
     </div>
   )
 }
