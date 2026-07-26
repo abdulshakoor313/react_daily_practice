@@ -21,8 +21,8 @@ const AddUser = () => {
       type="text"
       placeholder="Name"
       value={name}
-      onChange={()=>{
-        
+      onChange={(e)=>{
+
       }}
 
       
