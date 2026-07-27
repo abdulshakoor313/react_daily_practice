@@ -4,7 +4,9 @@ import { useState } from "react"
 
 const AddUser = () => {
   const [name, setName] = useState("")
-  con
+  const [users, setusers] = useState([
+    { id: 1, name: "Anas", }
+  ])
   return (
     <div>
       
