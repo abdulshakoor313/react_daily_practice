@@ -1,7 +1,10 @@
+import { useState } from "react"
 
 
 
 const AddUser = () => {
+  const [name, setName] = useState("")
+  con
   return (
     <div>
       
