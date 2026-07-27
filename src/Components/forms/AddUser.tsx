@@ -5,8 +5,9 @@ import { useState } from "react"
 const AddUser = () => {
   const [name, setName] = useState("")
   const [users, setusers] = useState([
-    { id: 1, name: "Anas", }
-  ])
+    { id: 1, name: "Anas", age: 8},
+    { id: 2, name: "Onaisi", age: 5},
+  ]);
   return (
     <div>
       
