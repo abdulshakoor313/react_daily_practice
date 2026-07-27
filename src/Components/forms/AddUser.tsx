@@ -8,6 +8,9 @@ const AddUser = () => {
     { id: 1, name: "Anas", age: 8},
     { id: 2, name: "Onaisi", age: 5},
   ]);
+  const addUser = () =>{
+    const newUser=()
+  }
   return (
     <div>
       
