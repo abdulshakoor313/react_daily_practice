@@ -9,7 +9,7 @@ const AddUser = () => {
     { id: 2, name: "Onaisi", age: 5},
   ]);
   const addUser = () =>{
-    const newUser=(id.length+1, name, age)
+    const newUser = {id.length+1, name, age}
   }
   return (
     <div>
