@@ -1,41 +1,10 @@
 
-import { useState } from "react"
 
 
 const AddUser = () => {
-  const [name, setName] = useState("")
-  const [users, setUsers] = useState([
-    {id:1, name: "Anas", age: 8},
-    {id:2, name: "Onai", age: 5},
-  ]);
-  const addUser = ()=>{
-    const newUser = {
-      id: users.length +1,
-      name: name,
-      age: 8,
-    };
-    setUsers([...users, newUser])
-  }
   return (
     <div>
-      <input
-      type="text"
-      placeholder="Name"
-      value={name}
-      onChange={(e)=>{setName(e.target.value);
-      }}
-      />
-      <button 
-      onClick={addUser}
-      >
-        Add
-      </button>
-      {users.map((user)=>(
-        <div key={user.id}>
-        <h1>  {user.name}</h1>
-          {user.age}
-        </div>
-      ))}
+      
     </div>
   )
 }
